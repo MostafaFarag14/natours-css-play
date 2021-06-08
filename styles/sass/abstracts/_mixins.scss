@@ -1,0 +1,18 @@
+@mixin background-settings {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url("/img/hero.jpg");
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+@mixin heading-primary-text($fontSize, $letterSpacing) {
+  display: block;
+  font-weight: 400;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+}

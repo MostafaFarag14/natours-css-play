@@ -1,0 +1,27 @@
+body {
+  padding: 3rem;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-size: 16px; */
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-grey;
+}
+
+.headingPrimary {
+  color: $color-white;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+
+  .main {
+    @include heading-primary-text(6rem, 3.5rem);
+    animation-name: moveInleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  .sub {
+    @include heading-primary-text(2rem, 1.75rem);
+    animation: moveInRight 1s ease-out;
+  }
+}

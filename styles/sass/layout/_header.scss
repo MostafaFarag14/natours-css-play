@@ -1,0 +1,23 @@
+.header {
+  position: relative;
+  height: 95vh;
+  @include background-settings;
+}
+
+.logoBox {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+
+.logo {
+  height: 3.5rem;
+}
+
+.textBox {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
