@@ -1,8 +1,13 @@
-import Content from "../components/content";
+import { Fragment } from "react";
+import About from "../layout/about";
+import Header from "../layout/header";
 
 
 export default function HomePage() {
   return (
-    <Content />
+    <Fragment>
+      <Header />
+      <About />
+    </Fragment>
   )
 }

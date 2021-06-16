@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
+import { Fragment } from 'react'
 import Head from 'next/head'
 
-function Layout({children}) {
+function Layout({ children }) {
   return (
     <Fragment>
       <Head>

@@ -16,3 +16,9 @@
   font-size: $fontSize;
   letter-spacing: $letterSpacing;
 }
+
+@mixin headingSecondary {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
