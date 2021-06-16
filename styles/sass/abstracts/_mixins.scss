@@ -22,3 +22,7 @@
   font-size: 1.8rem;
   font-weight: 700;
 }
+
+@mixin imgShadow {
+  box-shadow: 1px 1px;
+}
