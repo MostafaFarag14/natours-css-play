@@ -21,3 +21,17 @@
     background-color: $color-white;
   }
 }
+
+.secondaryButton{
+  font-size: 2rem;
+  width: fit-content;
+  display: inline-block;
+  transition: all 0.3s;
+  border-bottom: 0.2rem solid $color-primary;
+
+  &:hover{
+    background-color: $color-primary;
+    color:$color-white;
+    box-shadow: 0rem 1rem 2rem rgba($color-black, 0.2);
+  }
+}

@@ -17,7 +17,7 @@ function About() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla
               deserunt voluptatum nam.</p>
           </div>
-          <a href='#'>Learn more &rarr;</a>
+          <a className='secondaryButton' href='#'>Learn more &rarr;</a>
         </div>
         <div className='gallery'>
           <img className='nat1' src='/img/nat-1.jpg' />
